@@ -1,5 +1,8 @@
 const express = require('express');
 const userRoutes = require('./routes/user.routes');
+const dotenv = require('dotenv');
+
+dotenv.config(); // Load environment variables from .env file
 
 const app = express();
 
